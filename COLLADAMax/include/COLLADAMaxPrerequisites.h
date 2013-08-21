@@ -87,6 +87,12 @@
 #  define MAX_2013
 #endif
 
+#if ( MAX_VERSION_MAJOR >= 16 )
+#  define MAX_2014_OR_NEWER
+#endif
+#if ( MAX_VERSION_MAJOR == 16 )
+#  define MAX_2014
+#endif
 
 // Max 2009 requires RTTI to be enabled
 #ifdef MAX_2009_OR_NEWER

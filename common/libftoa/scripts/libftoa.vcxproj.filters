@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\performanceTest">
+      <UniqueIdentifier>{521da9e1-98ee-46a7-b985-11f1630f1c63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\unitTest">
+      <UniqueIdentifier>{9d77b7a8-778e-4193-8bbd-e3758b57f814}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files\performanceTest">
+      <UniqueIdentifier>{7ef95785-266d-4d4e-abf2-2798a208126e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\unitTest">
+      <UniqueIdentifier>{986fccaf-64cf-4d08-a616-a47e1d516237}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\Commondtoa.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Commonftoa.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Commonitoa.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\performanceTest\main.cpp">
+      <Filter>Source Files\performanceTest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\performanceTest\performanceTest.cpp">
+      <Filter>Source Files\performanceTest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\unitTest\dtoaUnitTest.cpp">
+      <Filter>Source Files\unitTest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\unitTest\ftoaUnitTest.cpp">
+      <Filter>Source Files\unitTest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\itoaUnitTest.cpp">
+      <Filter>Source Files\unitTest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\unitTest\main.cpp">
+      <Filter>Source Files\unitTest</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\include\Commondtoa.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Commonftoa.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Commonitoa.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\performanceTest\performanceTest.h">
+      <Filter>Header Files\performanceTest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\unitTest\dtoaUnitTest.h">
+      <Filter>Header Files\unitTest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\unitTest\ftoaUnitTest.h">
+      <Filter>Header Files\unitTest</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\include\itoaUnitTest.h">
+      <Filter>Header Files\unitTest</Filter>
+    </CustomBuild>
+  </ItemGroup>
+</Project>
