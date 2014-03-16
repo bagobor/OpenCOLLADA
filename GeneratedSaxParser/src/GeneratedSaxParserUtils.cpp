@@ -14,6 +14,8 @@
 #include <string.h>
 #include <limits>
 
+#include <algorithm>
+
 namespace GeneratedSaxParser
 {
 
